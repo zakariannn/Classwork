@@ -1,7 +1,7 @@
 package com.aca.week4;
 
 public class BookPagePrinter extends PagePrinter {
-    private String publisher;
+    private final String publisher;
 
     public BookPagePrinter(String publisher) {
         this.publisher = publisher;
@@ -17,7 +17,6 @@ public class BookPagePrinter extends PagePrinter {
     @Override
     public void printContent(int number, String content) {
         System.out.println(this.publisher);
-        super.printContent(number, content);
 
     }
 }

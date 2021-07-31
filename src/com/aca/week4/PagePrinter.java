@@ -1,6 +1,6 @@
 package com.aca.week4;
 
-public class PagePrinter {
+public abstract class PagePrinter {
 
     public void print(int number, String content) {
         System.out.println(number);
@@ -8,7 +8,5 @@ public class PagePrinter {
         System.out.println("      Page " + number);
     }
 
-    public void printContent(int number, String content) {
-        System.out.println(content);
-    }
+    abstract public void printContent(int number, String content);
 }

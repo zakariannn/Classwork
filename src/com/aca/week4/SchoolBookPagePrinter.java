@@ -16,7 +16,6 @@ public class SchoolBookPagePrinter extends PagePrinter {
 
     @Override
     public void printContent(int number, String content) {
-        super.printContent(number, content);
         if(number == 17)
         {
             System.out.println(this.schoolName);
