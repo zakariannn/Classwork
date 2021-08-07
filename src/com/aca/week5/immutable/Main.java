@@ -1,4 +1,4 @@
-package com.aca.week5;
+package com.aca.week5.immutable;
 
 import java.util.Scanner;
 
